@@ -85,6 +85,44 @@ print(date[-2:])
 
 
 # Removing spaces
+text = "  Engineering".lstrip()             # Use it for left side if there is spaces
+print(text)
+
+text = "Engineering  ".rstrip()             # Use it for right side if there is spaces
+print(text)
+
+text = "  Engineering  ".strip()            # Use it for if both the sides if there is space
+print(text)
+
+text = " Engineering"
+print(len(text))
+print(len(text.strip()))
+
+# Upper and lower case
+text = "python PROGRAMMING"
+print(text.lower())
+print(text.upper())
+
+# Case Conversion
+search = " Email".lower().strip()
+data = "email".lower().strip()
+
+print(search == data)
+
+
+# Searching
+# starts with
+phone = "+48-176-12345"
+print(phone.startswith("+48"))
+
+# endswith
+email = "baraaoutlook.com"
+print(email.endswith(".com"))
+
+#in 
+print("@" in email)
+
+
 
 
 

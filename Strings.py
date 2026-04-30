@@ -122,6 +122,23 @@ print(email.endswith(".com"))
 #in 
 print("@" in email)
 
+#find
+phone1 = "+48-176-12345"
+phone2 = "48-654-16548"
+phone3 = "0048-654-16548"
+
+print(phone1[phone1.find("-")+1:])
+
+#Validation string values and numbers
+
+country = "USA"
+print(country.isalpha())
+
+phone = "236493269362"
+print(phone.isnumeric())
+
+
+
 
 
 

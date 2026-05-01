@@ -20,3 +20,13 @@ print(7 / 2)
 print(7 // 2)
 print(9 % 2)
 print(2 ** 3)
+
+# Convert 
+x = 2
+x += 3
+print(x)
+x -= 1
+print(x)
+
+# Measure Distance
+print(abs(2 - 10))

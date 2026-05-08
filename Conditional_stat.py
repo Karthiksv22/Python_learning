@@ -90,8 +90,12 @@ elif email.endswith('.com') or email.endswith('.org') or email.endswith('.net'):
   print("Must end with .com , .org , .net")
 elif len(email) > 254:
   print("Not be more than 254")
+elif not (email[0].isalnum() and email[-1].isalnum()):
+  print("Email must start and end with let or no")
 else:
   print("Email is valid")
+
+
 
 
 
